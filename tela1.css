@@ -1,0 +1,133 @@
+html,body,main{
+  width: 100%;
+  height: 100%;
+  font-family: 'Open_Sans', sans-serif;
+}
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: 'Open_Sans', sans-serif;
+}
+
+.header-img {
+    max-width: 100%;
+    height: auto;
+}
+h2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    font-size: 1.5rem;
+    padding: 2rem;
+    border: 0.5rem solid black;
+
+
+}
+
+.nome-usuario{
+  display: flex; /* Estabelece um contexto flexível */
+  flex-direction: column; /* Os itens são empilhados verticalmente */
+  justify-content: center; /* Centraliza os itens ao longo do eixo principal (verticalmente) */
+  align-items: center; /* Centraliza os itens ao longo do eixo cruzado (horizontalmente) */
+  position: relative; /* Posicionamento absoluto em relação ao seu elemento pai posicionado mais próximo */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  border: 0.5rem solid black;
+}
+
+h3{
+
+    display: flex;
+
+    align-items: center;
+
+
+}
+
+
+.itens{
+    display: flex;
+    flex-direction: column;
+}
+.linha{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.5rem;
+
+}
+.circulo {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 1rem solid #99cc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  
+.circuloam {
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 1rem solid #99cc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circuloG {
+    text-align: center;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 1rem solid #99cc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h1{
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+  }
+.foto{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    align-self: center;
+  }
+
+
+
+
+
+  
+  
